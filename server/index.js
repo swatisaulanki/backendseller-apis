@@ -16,7 +16,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.get("/", (req, res) => {
-  res.send("Homepage");
+  res.send(" welcome to the Homepage");
 });
 app.use("/product", productController);
 
